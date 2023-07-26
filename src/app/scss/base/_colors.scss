@@ -1,0 +1,33 @@
+:root {
+    /****** Basic Colors *****/
+    --primary-color: #65FBD2;
+    --primary-color-contrast: #000000;
+    --secondary-color: #D3FBD8;
+    --secondary-color-contrast: #000000;
+    --background-color: #515151;
+    --background-color-contrast: #FFFFFF;
+    --background-dark-color: #222222;
+    --surface-color: #B5B5B5;
+    --surface-color-contrast: #000000;
+    --warning-color: #FFA450;
+    --warning-color-contrast: #000000;
+    --error-color: #FF3B3B;
+    --error-color-contrast: #040404;
+    --success-color: #2CD82C;
+    --success-color-contrast: #000000;
+}
+    /****** Basic Colors SCSS *****/
+    $primary-color: var(--primary-color);
+    $primary-color-contrast: var(--primary-color-contrast);
+    $secondary-color: var(--secondary-color);
+    $secondary-color-contrast: var(--secondary-color-contrast);
+    $background-color: var(--background-color);
+    $background-color-contrast: var(--background-color-contrast);
+    $surface-color: var(--surface-color);
+    $surface-color-contrast: var(--surface-color-contrast);
+    $warning-color: var(--warning-color);
+    $warning-color-contrast: var(--warning-color-contrast);
+    $error-color: var(--error-color);
+    $error-color-contrast: var(--error-color-contrast);
+    $success-color: var(--success-color);
+    $success-color-contrast: var(--success-color-contrast);
