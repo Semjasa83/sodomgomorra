@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'sg-ibutton',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./interfacebutton.component.scss']
 })
 export class InterfacebuttonComponent {
+  @Input() buttonText?: string;
+  @Input() iconSrc?: string;
+  @Input() altText?: string;
+  @Input() buttonColor?: string;
+
 
 }
