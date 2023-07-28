@@ -7,9 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class InterfacebuttonComponent {
   @Input() buttonText?: string;
-  @Input() iconSrc?: string;
-  @Input() altText?: string;
+  @Input() buttonWidth?: string;
+  @Input() iconName?: string;
+  @Input() imgSrc?: string;
+
   @Input() buttonColor?: string;
   @Input() textColor?: string;
-  @Input() buttonWidth?: string;
+  @Input() iconColor?: string;
+
 }
