@@ -1,15 +1,30 @@
 @import "src/app/scss/base/colors";
 
-.ibtn-border {
-    background-color: $background-dark-color;
-    width: 3rem;
+.interface-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 3rem;
     height: 3rem;
     border: none;
-    box-shadow: rgb(61 61 61 / 48%) 3px 0px 8px 4px, rgba(0, 0, 0, 0.8) -3px 0px 8px 4px;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    span {
+        padding: 0;
+    }
+    box-shadow:
+    2px 2px 2px 0px rgba(0, 0, 0, 0.5),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.08);
     &:active {
-        box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
+        box-shadow:    
+        2px 2px 2px 0px rgba(150, 150, 150, 0.5) inset,
+        0 2.8px 2.2px rgba(150, 150, 150, 0.034) inset,
+        0 6.7px 5.3px rgba(150, 150, 150, 0.048) inset,
+        0 12.5px 10px rgba(150, 150, 150, 0.08) inset;
     }
-    &:hover {
-        background-color: $background-dark-color;
-    }
+    // &:hover {
+    //     background-color: $button-dark-color !important;
+    // }
 }

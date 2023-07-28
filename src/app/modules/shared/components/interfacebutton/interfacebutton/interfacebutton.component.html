@@ -1,8 +1,6 @@
-<!-- <button class="ibtn-border">
+<!-- <button class="ibtn-border"></button> -->
 
-</button> -->
-
-<button [style.background]="buttonColor">
+<div class="interface-button" [style.background]="buttonColor" [style.color]="textColor" [style.width]="buttonWidth">
     <img *ngIf="iconSrc" [src]="iconSrc" [alt]="altText" />
     <span>{{ buttonText }}</span>
-</button>
+</div>

@@ -3,8 +3,12 @@
 .login-wrapper {
     height: 100vh;
     width: 100vw;
-    background-color: $background-color;
+    background-color: $surface-color;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+sg-ibutton {
+    margin: 3rem;
 }

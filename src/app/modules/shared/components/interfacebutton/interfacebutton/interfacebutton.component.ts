@@ -10,6 +10,6 @@ export class InterfacebuttonComponent {
   @Input() iconSrc?: string;
   @Input() altText?: string;
   @Input() buttonColor?: string;
-
-
+  @Input() textColor?: string;
+  @Input() buttonWidth?: string;
 }
