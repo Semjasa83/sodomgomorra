@@ -1,0 +1,30 @@
+@import "src/app/scss/base/colors";
+
+.interface-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    span {
+        padding: 0;
+    }
+    box-shadow:
+    2px 2px 2px 0px rgba(0, 0, 0, 0.5),
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.08);
+    &:active {
+        box-shadow:    
+        2px 2px 2px 0px rgba(150, 150, 150, 0.5) inset,
+        0 2.8px 2.2px rgba(150, 150, 150, 0.034) inset,
+        0 6.7px 5.3px rgba(150, 150, 150, 0.048) inset,
+        0 12.5px 10px rgba(150, 150, 150, 0.08) inset;
+    }
+    // &:hover {
+    //     background-color: $button-dark-color !important;
+    // }
+}
