@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './modules/shared/shared.module';
 import { LoginComponent } from './modules/login/login.component';
+import { GameinterfaceComponent } from './modules/gameinterface/gameinterface.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    GameinterfaceComponent
   ],
   imports: [
     BrowserModule,
