@@ -9,7 +9,7 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class ModulesModule { }
