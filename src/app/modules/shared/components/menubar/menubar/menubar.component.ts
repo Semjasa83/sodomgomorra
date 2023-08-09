@@ -6,5 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./menubar.component.scss']
 })
 export class MenubarComponent {
-
+  @Input() left?: boolean;
+  @Input() center?: boolean;
+  @Input() right?: boolean;
 }

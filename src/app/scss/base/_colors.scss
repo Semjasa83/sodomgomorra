@@ -4,20 +4,20 @@
     --primary-color-contrast: #000000;
     --secondary-color: #D3FBD8;
     --secondary-color-contrast: #000000;
-    --background-color: #3e3e3e;
+    --background-color: #1e1e1e;
     --background-color-contrast: #FFFFFF;
     --border-light-highlight: #9c8d74;
     --border-dark-highlight: #2a231d;
-    --surface-color: #707070;
-    --surface-color-contrast: #000000;
+    --surface-color: #252525;
+    --surface-color-contrast: #9c8d74;
     --warning-color: #FFA450;
     --warning-color-contrast: #000000;
     --error-color: #FF3B3B;
     --error-color-contrast: #040404;
     --success-color: #2CD82C;
     --success-color-contrast: #000000;
-    --shadow-dark-color: #363636a5;
-    --shadow-light-color: #606060a1;
+    --shadow-dark-color: #1e1e1ea5;
+    --shadow-light-color: #252525a1;
 }
     /****** Basic Colors SCSS *****/
     $primary-color: var(--primary-color);
