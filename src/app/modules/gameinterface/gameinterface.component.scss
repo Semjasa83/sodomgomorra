@@ -1,1 +1,28 @@
 @import 'src/app/scss/base/colors';
+
+.section-spacer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.section-spacer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.icon-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $surface-color-contrast;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.25rem;
+    border-radius: 100%;
+    border: 1px solid $surface-color-contrast;
+    margin-left: 1rem;
+}

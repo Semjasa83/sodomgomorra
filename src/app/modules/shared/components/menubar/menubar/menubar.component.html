@@ -1,8 +1,13 @@
 <div class="menubar-horizontal">
-<ng-content *ngIf="left">
+    <div class="section left">
+        <ng-content select="[section='left']"></ng-content>
+    </div>
 
-</ng-content>
+    <div class="section center">
+        <ng-content select="[section='center']"></ng-content>
+    </div>
 
-
-
+    <div class="section right">
+        <ng-content select="[section='right']"></ng-content>
+    </div>
 </div>
