@@ -1,1 +1,13 @@
-<sg-menubar></sg-menubar>
+<div class="menubar-horizontal">
+    <div class="section left">
+        <ng-content select="[section='left']"></ng-content>
+    </div>
+
+    <div class="section center">
+        <ng-content select="[section='center']"></ng-content>
+    </div>
+
+    <div class="section right">
+        <ng-content select="[section='right']"></ng-content>
+    </div>
+</div>
