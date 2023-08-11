@@ -4,7 +4,8 @@ import { ButtonModule } from './components/button/button.module';
 import { MenubarModule } from './components/menubar/menubar.module';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
     ButtonModule,
