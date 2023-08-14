@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, Input, signal} from '@angular/core';
 
 @Component({
   selector: 'sg-gameinterface',
@@ -7,4 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class GameinterfaceComponent {
 
+
 }
+
+

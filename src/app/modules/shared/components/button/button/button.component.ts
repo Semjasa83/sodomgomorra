@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, signal } from '@angular/core';
 
 @Component({
   selector: 'sg-button',
@@ -14,4 +14,6 @@ export class ButtonComponent {
   @Input() buttonColor?: string;
   @Input() textColor?: string;
   @Input() iconColor?: string;
+
+
 }
