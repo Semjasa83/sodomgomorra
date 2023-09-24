@@ -1,0 +1,5 @@
+<div class="interface-button" [style.background]="buttonColor" [style.width]="buttonWidth">
+  <span [style.color]="textColor">{{ buttonText }}</span>
+  <i *ngIf="iconName" class="fa-solid {{ iconName }}" [style.color]="iconColor"></i>
+  <img *ngIf="imgSrc" [src]="imgSrc"/>
+</div>
