@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './modules/login/login.component';
-import { GameinterfaceComponent } from './modules/gameinterface/gameinterface.component';
+import { GameinterfaceComponent } from "./interface/gameinterface/gameinterface.component";
 
 
 const routes: Routes = [
   { path: '',   redirectTo: 'gameinterface', pathMatch: 'full' },
-  { path: 'login', component: LoginComponent,
-        children: [
+  // { path: 'login', component: LoginComponent,
+  //       children: [
         // { path: 'fPw', component: ForgotpwComponent},
-      ],
-  },
+  //     ],
+  // },
   { path: 'gameinterface', component: GameinterfaceComponent,
   //     children: [
   //       { path: 'fPw', component: ForgotpwComponent},
@@ -22,7 +21,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+    GameinterfaceComponent,
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

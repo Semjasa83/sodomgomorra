@@ -8,7 +8,7 @@ describe('GameinterfaceComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [GameinterfaceComponent]
+      imports: [GameinterfaceComponent]
     });
     fixture = TestBed.createComponent(GameinterfaceComponent);
     component = fixture.componentInstance;
